@@ -7,7 +7,7 @@ import java.io.BufferedReader;
 
 /**
  *
- * @author DragonmanJoel
+ * @author Justicejil
  */
 public class DragonKnight {
     
