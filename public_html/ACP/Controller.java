@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Controller {
-	public static HashMap<String,SimpleHandler> hashMapOfCommands = new HashMap<String,SimpleHandler>();
+	public static HashMap<String,MathUp> hashMapOfCommands = new HashMap<String,MathUp>();
 	
 	
 	public static void handleUserInput(String commandPrompt, Integer num1, Integer num2) {

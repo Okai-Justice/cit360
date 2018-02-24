@@ -1,5 +1,6 @@
 
-public class Additon implements SimpleHandler{
+
+public class Addition {
 	
 	public void execute(Integer num1, Integer num2) {
 		Integer sum = num1 + num2;

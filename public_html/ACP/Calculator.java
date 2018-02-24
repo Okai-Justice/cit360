@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Calculator {
 	public static void main(String[] args) {
-		Controller delegateIt = new Controller(); 
+		Calculator delegateIt = new Calculator(); 
 		//this will allow "delegate" the activity here to our controller.
 		Integer num1;
 		Integer num2;
