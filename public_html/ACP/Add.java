@@ -1,6 +1,13 @@
 
+import javax.xml.ws.handler.Handler;
 
-public class Addition {
+
+
+/**
+ *
+ * @author gee
+ */
+public abstract class Add implements Handler{
 	
 	public void execute(Integer num1, Integer num2) {
 		Integer sum = num1 + num2;

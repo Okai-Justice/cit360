@@ -1,15 +1,16 @@
 import java.util.*;
+import java.util.logging.Controller;
 
 public class Calculator {
 	public static void main(String[] args) {
-		Calculator delegateIt = new Calculator(); 
-		//this will allow "delegate" the activity here to our controller.
+		Controller delegateIt = new Controller(); 
+		//this will allow us to "delegate" the activity here to our controller.
 		Integer num1;
 		Integer num2;
 		String commandPrompt;
 		
 		Scanner userInput = new Scanner(System.in);
-		//This takes the data needed to run our calculator.
+		//This takes in the data needed to run our calculator.
 		System.out.print("Please enter a number: ");
 		num1 = Integer.parseInt(userInput.nextLine());
 		
