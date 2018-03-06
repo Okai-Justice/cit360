@@ -6,9 +6,7 @@ import java.util.logging.Subtract;
 
 public class Controller {
 	public static HashMap<String,Handler> hashMapOfCommands = new HashMap<String,Handler>();
-	/*We make this public and static so that it can be used by our methods, interfaces, etc. 
-	 * but not changeable in those areas. You will also notice the use of the HashMap here
-	 * to not only store the strings but to also call our other classes! Instead of using case
+	/*The HashMap here not only store the strings but to also call our other classes! Instead of using case
 	 * or switch, this allows us to move through the code easier. Below we will put in other items we
 	 * will need to make the HashMap useful for our calculator.
 	 */
@@ -27,8 +25,6 @@ public class Controller {
 		//with the user command entered, we can not grab it from our hashMap.
 		Handler handler = hashMapOfCommands.get(commandPrompt);
 		
-		//Now we use the executor to run the class associated with the commandPrompt from our code.
-		handler.execute(num1, num2);
 		
 	}
 }
