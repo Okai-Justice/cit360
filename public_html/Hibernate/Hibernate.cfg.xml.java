@@ -19,7 +19,7 @@
         <!-- SQL dialect -->  
         <property name="dialect">org.hibernate.dialect.SQLServer2005Dialect</property>  
   
-        <!-- Enable Hibernate's automatic session context management -->  
+        
         <property name="current_session_context_class">thread</property>  
   
         <!-- Disable the second-level cache  -->  
@@ -31,8 +31,7 @@
         <!-- Drop and re-create the database schema on startup -->  
         <property name="hbm2ddl.auto">create</property>  
   
-  <mapping class="org.arpit.javapostsforlearning.Country"></mapping>  
-  <mapping class="org.arpit.javapostsforlearning.Capital"></mapping>  
+ 
   
     </session-factory>  
   
